@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="keywords" content="portfolio">
+    <meta name="description" content="my fullstack python developer">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+  <section class="nav">
+   <nav>
+    <div class="nav-container">
+      <div class="logo"><span>JOHN G</span>
+        <span style="font-size: small;">Software Developer</span>
+      </div>
+      
+      <!-- <input type="text" id="" /> -->
+      <!-- <label for="" class="menu-icon">☰</label> -->
+      
+      <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+</section>
+<section class="hero-section" id="home">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="hero-name">John G</span></h1>
+      <h2>Aspiring <span class="highlight-role">Software Developer</span></h2>
+      <p>I craft web experiences that are clean, responsive, and user-focused. Let’s build something meaningful together!</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn primary-btn"> Hire Me</a>
+        <a href="images/John G Resume.pdf" download="John G Resume.pdf" class="btn secondary-btn">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="./images/portfolio.png" alt="Lingesh">
+    </div>
+  </div>
+</section>
+
+
+    <!-- about-section -->
+    <section class="about-section" id="about">
+  <div class="about-proposal-container">
+    <h2 class="about-heading">About Me</h2>
+    <div class="about-card">
+      <div class="about-left">
+        <img src="./images/portfolio.png" alt="John Profile" class="profile-img" />
+      </div>
+      <div class="about-right">
+        <h3>Hi, I'm <span class="username">John G</span></h3>
+        <p class="about-para">
+          A passionate <strong>Software Developer</strong> and B.E. graduate in CSE. I enjoy building web apps, exploring new technologies, and turning ideas into digital reality.
+        </p>
+        <p class="about-para">
+          I’ve built solutions like a Attendance Tracking System, a Train Ticket Reservation System, and an E-Commerce Website. These projects reflect my love for innovation, clean design, and functionality.
+        </p>
+        <p class="about-para">
+          With strong skills in Python and Java full-stack development, I focus on writing clean, scalable code and creating impactful software solutions.
+        </p>
+        <a href="images/John G Resume.pdf" class="cv-button" target="_blank">📄 View My Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- project details -->
+ <section class="project" id="project">
+    <div class="project-section">
+  <h2 class="section-title">My Projects</h2>
+  <div class="project-grid">
+
+    <!-- Project Card -->
+    <div class="project-card">
+      <img src="./images/ATS.jpeg" alt="Attendance Tracking System">
+      <div class="project-info">
+        <h3>Attendance Tracking System</h3>
+        <p>Efficient Attendance Tracking System for seamless student management.</p>
+        <a href="https://github.com/gJohn1502/AttendanceTrackingSystem" target="_blank" class="view-btn">Git Repo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="./images/TTR.jpeg" alt="Train Ticket Reservation System">
+      <div class="project-info">
+        <h3>TT Reservation System</h3>
+        <p>User-friendly Train Ticket Reservation System for booking and managing travel schedules.</p>
+        <a href="https://github.com/gJohn1502/TTR_SBOOT" target="_blank" class="view-btn">Git Repo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="./images/E-commerce.jpeg" alt="E-Commerce Website">
+      <div class="project-info">
+        <h3>E-Commerce Website</h3>
+        <p>Feature-rich E-Commerce Website for browsing, ordering, and managing products online.</p>
+        <a href="https://github.com/gJohn1502/e-commerce" target="_blank" class="view-btn">Git Repo</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+<!-- skill-level -->
+<section class="skill-section" id="skills">
+  <h2 class="section-title">My Skills</h2>
+  <div class="skills-container">
+
+    <div class="skill-circle">
+      <div class="circle" style="--percent:100; --size:140px; --color:#f97316;"><span>Python<br><small>100%</small></span></div>
+    </div>
+
+    <div class="skill-circle">
+      <div class="circle" style="--percent:90; --size:120px; --color:#3b82f6;"><span>Java<br><small>90%</small></span></div>
+    </div>
+
+    <div class="skill-circle">
+      <div class="circle" style="--percent:75; --size:100px; --color:#facc15;"><span>HTML,CSS<br><small>75%</small></span></div>
+    </div>
+
+    <div class="skill-circle">
+      <div class="circle" style="--percent:60; --size:90px; --color:#22c55e;"><span>SQL<br><small>60%</small></span></div>
+    </div>
+
+    <div class="skill-circle">
+      <div class="circle" style="--percent:50; --size:80px; --color:#ef4444;"><span>JavaScript<br><small>50%</small></span></div>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-container">
+    
+    <!-- Contact Form -->
+     
+    <div class="contact-form">
+      <form action="https://formsubmit.co/john15022003@gmail.com" method="POST" class="form-box">
+        <legend class="form-title">Contact Me</legend>
+
+        <!-- Optional: Redirect after submission -->
+        <input type="hidden" name="_next" value="thank-you.html">
+        <!-- Optional: Disable captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="name">Your Name:</label>
+        <div class="form-group">
+          <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+        </div>
+
+        <label for="number">Phone Number:</label>
+        <div class="form-group">
+          <input type="number" id="number" name="Phone" placeholder="Enter your number" required>
+        </div>
+
+        <label for="email">Email Address:</label>
+        <div class="form-group">
+          <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+        </div>
+
+        <label for="feedback">Message / Feedback:</label>
+        <div class="form-group">
+          <textarea id="feedback" name="Message" rows="4" placeholder="Write your message..." required></textarea>
+        </div>
+
+        <button class="submit-btn" type="submit">Send Message</button>
+      </form>
+    </div>
+<!-- Google Map -->
+<div class="map-embed">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.9128601845594!2d80.2209777750707!3d13.08268058723683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265c04da6c519%3A0x5d408b8771dc68dc!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1718025678314" 
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <p class="footer-credit">&copy; 2025 <strong>John G</strong>. All rights reserved.</p>
+    
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy</a>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://github.com/gJohn1502" target="_blank" title="GitHub">
+        <img src="./icons/github.png" alt="GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/johng1502/" target="_blank" title="LinkedIn">
+        <img src="./icons/linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="www.john15022003@gmail.com" title="Email">
+        <img src="./icons/google.png" alt="Email">
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
